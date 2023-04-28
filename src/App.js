@@ -12,8 +12,8 @@ function App() {
       <HeaderOne/>
       <HeaderTwo/>
       <HeaderThree/>
-      {/* <Sample/> */}
       <Route/>
+        {/* <Sample/> */}
     </>
   );
 }

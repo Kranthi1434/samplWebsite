@@ -4,6 +4,7 @@ import SecondComponenet from './Home/secondComponent'
 import ThirdComponent from './Home/thirdComponent'
 import FourthComponent from './Home/fourthComponent'
 import FifthComponent from './Home/FifthComponent'
+import SixthComponent from './Home/sixthComponent'
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
     <ThirdComponent/>
     <FourthComponent/>
     <FifthComponent/>
+    <SixthComponent/>
     
     </>
   )

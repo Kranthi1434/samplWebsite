@@ -35,7 +35,7 @@ const HeaderTwo = () => {
                         <Tab 
                         label={item} 
                         sx={{fontSize:'14px'}}
-                        href='/home' 
+                        href='/' 
                         key={index}/>
                         ))
                         }
@@ -56,7 +56,12 @@ const HeaderTwo = () => {
            <Typography 
               variant='h4'
               sx={{color:'white',
-              marginLeft:'130px',
+              marginLeft:{
+                            xs:'70px',
+                            sm:'150px',
+                            md:'',
+                            lg:'130px',
+                          },
               position:'relative',
               top:'80px'}}>
               Graduate Studies Admission

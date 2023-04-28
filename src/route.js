@@ -8,7 +8,7 @@ import Sample from "./Sample"
 export function Route () {
      return useRoutes([
         {
-            path:'/home',
+            path:'/',
             element:<HomePage></HomePage>
         },
         {
